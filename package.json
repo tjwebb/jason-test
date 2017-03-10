@@ -1,0 +1,43 @@
+{
+  "name": "jason-test",
+  "version": "0.0.0",
+  "description": "A new Trails.js Application",
+  "homepage": "http://trailsjs.io",
+  "author": {
+    "name": "langateam",
+    "email": "hello@langa.io",
+    "url": "langa.io"
+  },
+  "main": "index.js",
+  "keywords": [
+    "",
+    "trails",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "pg": "^6.1.4",
+    "trailpack-knex": "^0.5.14",
+    "trailpack-repl": "^2",
+    "trailpack-router": "^2",
+    "trails": "^2",
+    "winston": "^2.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.11",
+    "eslint-config-trails": "^2",
+    "mocha": "^2.5",
+    "supertest": "^1.2"
+  },
+  "scripts": {
+    "start": "NODE_PATH=node_modules node server.js",
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "langateam/jason-test",
+  "license": "MIT"
+}
