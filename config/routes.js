@@ -13,7 +13,7 @@ module.exports = [
 
   {
     method: 'GET',
-    path: '/destination/{id?}',
+    path: '/destination/{token}',
     handler: 'DestinationController.find'
   }
 
