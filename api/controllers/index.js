@@ -1,1 +1,2 @@
 
+exports.DestinationController = require('./DestinationController')

@@ -29,11 +29,8 @@ module.exports = {
 
     dev: {
       client: 'pg',
+      debug: true,
       connection: {
-        host: process.env.UBUILT_PG_GEO_HOST,
-        database: 'osm',
-        user: process.env.UBUILT_PG_GEO_USER,
-        password: process.env.UBUILT_PG_GEO_PASSWORD
       }
     }
   },

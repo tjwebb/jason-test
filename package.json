@@ -15,6 +15,7 @@
     "trailsjs"
   ],
   "dependencies": {
+    "eslint": "^3.17.1",
     "pg": "^6.1.4",
     "trailpack-knex": "^0.5.14",
     "trailpack-repl": "^2",
